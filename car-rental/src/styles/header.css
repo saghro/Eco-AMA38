@@ -1,6 +1,6 @@
 .header__top {
     padding: 10px 0px;
-    background: #000d6b;
+    background: #187aeb;
     color: #fff;
   }
   
@@ -35,13 +35,14 @@
   }
   
   .header__top__right a:hover {
-    color: #fff;
+    color: #949494;
   }
   
   /* ============ header middle style =========== */
   
   .header__middle {
-    padding: 20px 0px;
+    padding: 10px 0px;
+    background-color: #1d1d1d;
   }
   
   .logo h1 a span {
@@ -54,7 +55,7 @@
   
   .logo h1 a {
     text-decoration: none;
-    color: #000d6b;
+    color:#187aeb;
     font-weight: 700;
   }
   
@@ -64,13 +65,13 @@
   
   .header__location span i {
     font-size: 2.2rem;
-    color: #000d6b;
+    color: #187aeb;
   }
   
   .header__location-content h4 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #000d6b;
+    color: #e9e9e9;
   }
   
   .header__location-content h6 {
@@ -78,7 +79,7 @@
   }
   
   .header__btn {
-    background: #000d6b !important;
+    background: #187aeb !important;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -103,7 +104,7 @@
   
   .main__navbar {
     padding: 15px 0px;
-    background: #000d6b;
+    background: #187aeb;
   }
   
   .mobile__menu i {
@@ -113,12 +114,12 @@
   }
   
   .mobile__menu {
-    display: none;
+    display:none;
   }
   
   .menu {
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     column-gap: 2.7rem;
   }
   
@@ -138,7 +139,7 @@
     display: flex;
     align-items: center;
     border-radius: 50px;
-    background: #020a4de9;
+    background:#e2e2e2;
   }
   
   .search__box input {
